@@ -1,9 +1,14 @@
 import './App.css';
 import Navbar from "./components/Navbar"
+import Main from "./components/Main"
+import { Fragment } from 'react';
 
 function App() {
   return (
-    <Navbar /> 
+    <div className='container'>
+      <Navbar />
+      <Main />
+    </div>
   )
 }
 
