@@ -7,10 +7,10 @@ import GithubLogo from "../images/github-square-brands.svg"
 export default function Footer() {
     return (
         <footer>
-            <img src={TwitterLogo} alt="" />
-            <img src={FacebookLogo} alt="" />
-            <img src={InstagramLogo} alt="" />
-            <img src={GithubLogo} alt="" />
+            <a href="https://twitter.com/" target={'_blank'}><img src={TwitterLogo} alt="" /></a>
+            <a href="https://facebook.com/" target={'_blank'}><img src={FacebookLogo} alt="" /></a>
+            <a href="https://www.instagram.com/" target={'_blank'}><img src={InstagramLogo} alt="" /></a>
+            <a href="https://github.com/gilbertogjn" target={'_blank'}><img src={GithubLogo} alt="" /></a>
         </footer>
     )
 }

@@ -7,7 +7,7 @@ export default function Interests() {
                 Interests
             </h2>
             <p className="text">
-                Food expert. Music scholar. Reader.
+                Music. Reader.
                 Internet Fanatic. Bacon buff.
                 Entrepreneur. Travel geek. Pop Culture
                 ninja. Coffee fanatic.

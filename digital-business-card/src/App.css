@@ -29,16 +29,17 @@
     font-size: 1rem;
     font-weight: normal;
     color: #DCAB8D;
-    margin-top: 0.2rem;
+    margin: 0.2rem 0;
 }
 
 .info--site {
+    text-decoration: none;
     font-size: 0.8rem;
-    font-weight: normal;
-    margin: 0.5rem 0 1rem 0;
+    color: #ffffffcf;
 }
 
 .info--buttons {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -95,7 +96,7 @@
 
 .title {
     font-size: 1.2rem;
-    margin: 0 0 0.8rem 0;
+    margin: 0 0 0.4rem 0;
 }
 
 .title-interests {
@@ -107,8 +108,9 @@
 }
 
 .interests {
-    margin-bottom: 2rem;;
+    margin: 2rem 0 3rem 0;
 }
+
 p {
     font-weight: 300;
     font-size: 0.9rem;
@@ -126,4 +128,9 @@ footer {
 
 footer img {
     width: 2rem;
+    transition: all 0.1s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
 }
