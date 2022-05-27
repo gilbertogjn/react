@@ -1,4 +1,6 @@
 import React from "react"
+import LinkedinLogo from '../images/linkedin-brands.svg'
+import Envelope from '../images/envelope-solid.svg'
 
 export default function Info() {
     return (
@@ -10,10 +12,13 @@ export default function Info() {
                 <h3 className="info--site">lunawd.com</h3>
                 <div className="info--buttons">
                     <button className="btn-email">
-                        <FontAwesomeIcon icon="fa-solid fa-envelope" />
+                        <img className="btn-icon" src={Envelope} />
                         Email
                     </button>
-                    <button className="btn-linkedin">Linkedln</button>
+                    <button className="btn-linkedin">
+                        <img className="btn-icon" src={LinkedinLogo} />
+                        Linkedln
+                    </button>
                 </div>
             </div>
         </div>

@@ -1,11 +1,11 @@
 .container {
-    width: 20rem;
+    width: 25rem;
     background-color: #1A1B21;
     border-radius: 12px;
 }
 
 .container-info {
-    padding: 1rem 2rem;
+    padding: 2rem 2.5rem;
     text-align: center;
 }
 
@@ -22,12 +22,14 @@
 
 .info--name {
     font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .info--role {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
     color: #DCAB8D;
+    margin-top: 0.2rem;
 }
 
 .info--site {
@@ -42,23 +44,86 @@
     width: 100%;
 }
 
+.info--buttons > * {
+    font-size: 1rem;
+}
+
 .btn-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     width: 48%;
     height: 2.5rem;
     border-radius: 6px;
     background-color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-icon {
+    height: 1em;
+    margin-right: 0.5em;
+    margin-top: -1px;
+}
+
+.btn-email:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.ico-envelope {
+    margin-right: 0.5em;
 }
 
 .btn-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     width: 48%;
     height: 2.5rem;
     border-radius: 6px;
     background-color: #4C90DE;
     color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
-.about, .interests{
-    padding: 0 2rem;;
+.btn-linkedin:hover {
+    background-color: #3b70ac;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin: 0 0 0.8rem 0;
+}
+
+.title-interests {
+    margin-top: 1rem;
+}
+
+.about, .interests {
+    padding: 0 2.5rem;;
+}
+
+.interests {
+    margin-bottom: 2rem;;
+}
+p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #ffffffcf;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+    background-color: #121317;
+    border-radius: 0 0 12px 12px;
+}
+
+footer img {
+    width: 2rem;
 }
