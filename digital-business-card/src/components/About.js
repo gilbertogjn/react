@@ -10,7 +10,7 @@ export default function About() {
                 things simple and automating daily
                 tasks. I try to keep up with security
                 and best practices, and am always
-                lookking for new things to learn.
+                looking for new things to learn.
             </p>
         </div>
     )
