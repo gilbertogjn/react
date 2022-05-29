@@ -7,10 +7,10 @@ export default function Interests() {
                 Interests
             </h2>
             <p className="text">
-                Music Lover and Maker.
-                Internet Entusiastic. Hamburguer Eater.
-                Entrepreneur. Pop Culture ninja. 
-                Ex-Coffee fanatic.
+                Music lover and maker.
+                Internet enthusiastic. Hamburguer Eater.
+                Entrepreneur. Pop culture ninja. 
+                Ex-coffee fanatic.
             </p>
         </div>
     )

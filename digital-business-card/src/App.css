@@ -120,10 +120,16 @@ p {
 
 footer {
     display: flex;
-    justify-content: space-around;
-    padding: 1rem 4rem;
+    justify-content: center;
     background-color: #121317;
     border-radius: 0 0 12px 12px;
+    padding: 1rem 4rem;
+}
+
+.footer--container {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer img {
@@ -133,4 +139,16 @@ footer img {
 
 footer img:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 1.2rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .container {
+        width: 100%;
+    }
 }
